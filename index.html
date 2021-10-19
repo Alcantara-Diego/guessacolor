@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Color Game</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Guess the color! <i class="fas fa-check"></i></h1>
+        <h2 id="cod">Aqui tá o codigo da cor</h2>
+        <footer>
+            <p id="streak">Streak: 0</p>
+            <button onclick='newc()'>New RGB</button>
+        </footer>
+        <div id="colors">
+            <div class="color" onclick="winnercheck(0)" id="color1"></div>
+            <div class="color" onclick="winnercheck(1)" id="color2"></div>
+            <div class="color" onclick="winnercheck(2)" id="color3"></div>
+            <div class="color" onclick="winnercheck(3)" id="color4"></div>
+            <div class="color" onclick="winnercheck(4)" id="color5"></div>
+            <div class="color" onclick="winnercheck(5)" id="color6"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
