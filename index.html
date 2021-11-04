@@ -9,12 +9,14 @@
 </head>
 <body>
     <div id="container">
-        <h2>Guess the color! <i class="fas fa-check"></i></h1>
-        <h2 id="cod">Aqui tá o codigo da cor</h2>
-        <footer>
-            <p id="streak">Streak: 0</p>
-            <button onclick='newc()'>New RGB</button>
-        </footer>
+        <header>
+            <h2>Guess the color! <i class="fas fa-check"></i></h1>
+            <h2 id="cod">Aperte em "Nova cor" para iniciar</h2>
+        </header>
+        <section>
+            <p id="streak">Pontuação: 0</p>
+            <button onclick='newc()'>Nova cor</button>
+        </section>
         <div id="colors">
             <div class="color" onclick="winnercheck(0)" id="color1"></div>
             <div class="color" onclick="winnercheck(1)" id="color2"></div>
